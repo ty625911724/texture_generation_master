@@ -43,6 +43,7 @@ This command has same function about the last command, but it will use the long-
 <img src="https://github.com/ty625911724/texture_generation_master/blob/master/images/results_cc.png?raw=true" width="48%"/><br/>
 
 **The left is Output without cc_loss, the right is the Output with cc_loss.** <br/>
+<p>
 **Without the cc_loss, the generated texture is mixed and disorderly.**<br/>
 **With the help of the long-range loss, the rendering of regular textures is better**.<br/>
 
@@ -52,9 +53,10 @@ This command has same function about the last command, but it will use the long-
 
 **The left is style image,the right is content Input.**<br/>
 
-<img src="https://github.com/ty625911724/texture_generation_master/blob/master/images/results_style_car.png?raw=true" width="48%"/><img src="https://github.com/ty625911724/texture_generation_master/blob/master/images/results_cc_car.png?raw=true" width="48%"/><br/>
+<img src="https://github.com/ty625911724/texture_generation_master/blob/master/images/results_style_car.png?raw=true" width="48%"/> <img src="https://github.com/ty625911724/texture_generation_master/blob/master/images/results_cc_car.png?raw=true" width="48%"/><br/>
 
 **The left is Output without cc_loss, the right is the Output with cc_loss.** <br/>
+<p>
 **The regular texture is also generated better when combining the content image and style image.**<br/>
 
 **You could change the hyperparameters to get better peformance.**

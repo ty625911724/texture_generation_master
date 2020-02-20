@@ -36,12 +36,11 @@ This command has same function about the last command, but it will use the long-
 ## Examples
 
 <p>
-Style: <br/>
-<img src="https://github.com/ty625911724/texture_generation_master/blob/master/images/brick.jpg?raw=true" width="48%"/>
+<img src="https://github.com/ty625911724/texture_generation_master/blob/master/images/brick.jpg?raw=true" width="48%" title="style image"/>
 <img src="https://github.com/ty625911724/texture_generation_master/blob/master/images/noisy.jpg?raw=true" width="48%"/>
-                  style image                                                                 Input
-<img src="https://github.com/ty625911724/texture_generation_master/blob/master/images/result_style.png?raw=true" width="48%"/>
-<img src="https://github.com/ty625911724/texture_generation_master/blob/master/images/result_cc.png?raw=true" width="48%"/>
+                  style image                                                                 Input <br/>
+<img src="https://github.com/ty625911724/texture_generation_master/blob/master/images/results_style.png?raw=true" width="48%"/>
+<img src="https://github.com/ty625911724/texture_generation_master/blob/master/images/results_cc.png?raw=true" width="48%"/>
                   Output without cc_loss                                             Output with cc_loss: <br/>
 </p>
 Without the cc_loss, the generated texture is mixed and disorderly.

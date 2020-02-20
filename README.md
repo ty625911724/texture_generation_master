@@ -44,6 +44,7 @@ This command has same function about the last command, but it will use the long-
 
 **The left is Output without cc_loss, the right is the Output with cc_loss.** <br/>
 <p>
+
 **Without the cc_loss, the generated texture is mixed and disorderly.**<br/>
 **With the help of the long-range loss, the rendering of regular textures is better**.<br/>
 
@@ -57,6 +58,7 @@ This command has same function about the last command, but it will use the long-
 
 **The left is Output without cc_loss, the right is the Output with cc_loss.** <br/>
 <p>
+ 
 **The regular texture is also generated better when combining the content image and style image.**<br/>
 
 **You could change the hyperparameters to get better peformance.**

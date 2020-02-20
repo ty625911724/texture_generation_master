@@ -1,6 +1,6 @@
 # texture_generation_master
 
-Implementation of [INCORPORATING LONG-RANGE CONSISTENCY IN CNN-BASED TEXTURE GENERATION](ICLR)(https://arxiv.org/pdf/1606.01286.pdf) by Tensorflow.
+Implementation of [INCORPORATING LONG-RANGE CONSISTENCY IN CNN-BASED TEXTURE GENERATION](https://arxiv.org/pdf/1606.01286.pdf) by Tensorflow.
 
 ## Requirements
  - [Tensorflow]
@@ -9,7 +9,7 @@ Implementation of [INCORPORATING LONG-RANGE CONSISTENCY IN CNN-BASED TEXTURE GEN
  - [VGG 19 model](https://drive.google.com/file/d/0B8QJdgMvQDrVU2cyZjFKU1RrLUU/view?usp=sharing)
 
 ## Generating
-Need to download the vgg19 and put it with main.py
+Need to download the vgg19 model and put it with main.py
 
 ```
 python main.py
@@ -36,9 +36,9 @@ This command has same function about the last command, but it will use the long-
 ## Examples
 
 <p>
-Content: <br/>
-<img src="https://github.com/ckmarkoh/neuralart_tensorflow/blob/master/images/Taipei101.jpg?raw=true" width="50%"/> <br/>
 Style: <br/>
+<img src="https://github.com/ty625911724/texture_generation_master/blob/master/images/brick.jpg?raw=true" width="50%"/> <br/>
+Output without cc_loss: <br/>
 <img src="https://github.com/ckmarkoh/neuralart_tensorflow/blob/master/images/StarryNight.jpg?raw=true" width="50%"/> <br/>
 Output: <br/>
 <img src="https://github.com/ckmarkoh/neuralart_tensorflow/blob/master/images/Taipei101_StarryNight.jpg?raw=true" width="50%"/> <br/>

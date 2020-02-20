@@ -37,11 +37,12 @@ This command has same function about the last command, but it will use the long-
 
 <p>
 Style: <br/>
-<img src="https://github.com/ty625911724/texture_generation_master/blob/master/images/brick.jpg?raw=true" width="50%"/> <br/>
-Output without cc_loss: <br/>
-<img src="https://github.com/ckmarkoh/neuralart_tensorflow/blob/master/images/StarryNight.jpg?raw=true" width="50%"/> <br/>
-Output: <br/>
-<img src="https://github.com/ckmarkoh/neuralart_tensorflow/blob/master/images/Taipei101_StarryNight.jpg?raw=true" width="50%"/> <br/>
+<img src="https://github.com/ty625911724/texture_generation_master/blob/master/images/brick.jpg?raw=true" width="50%"/>
+<img src="https://github.com/ty625911724/texture_generation_master/blob/master/images/noisy.jpg?raw=true" width="50%"/>
+                  style image                                                                 Input
+<img src="https://github.com/ty625911724/texture_generation_master/blob/master/images/result_style.jpg?raw=true" width="50%"/>
+<img src="https://github.com/ty625911724/texture_generation_master/blob/master/images/result_cc.jpg?raw=true" width="50%"/>
+                  Output without cc_loss                                             Output with cc_loss: <br/>
 </p>
 Without the cc_loss, the generated texture is mixed and disorderly.
 With the help of the long-range loss, the rendering of regular textures is better.

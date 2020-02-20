@@ -1,6 +1,6 @@
 # texture_generation_master
 
-Implementation of [INCORPORATING LONG-RANGE CONSISTENCY IN CNN-BASED TEXTURE GENERATION](https://arxiv.org/pdf/1606.01286.pdf) by Tensorflow.
+Implementation of paper: Incorporating long-range consistency in CNN-based texture generation (https://arxiv.org/pdf/1606.01286.pdf) by Tensorflow.
 
 ## Requirements
  - [Tensorflow]
@@ -52,8 +52,7 @@ This command has same function about the last command, but it will use the long-
 
 **The left is style image,the right is content Input.**<br/>
 
-<img src="https://github.com/ty625911724/texture_generation_master/blob/master/images/results_style_car.png?raw=true" width="48%"/>
-<img src="https://github.com/ty625911724/texture_generation_master/blob/master/images/results_cc_car.png?raw=true" width="48%"/><br/>
+<img src="https://github.com/ty625911724/texture_generation_master/blob/master/images/results_style_car.png?raw=true" width="48%"/><img src="https://github.com/ty625911724/texture_generation_master/blob/master/images/results_cc_car.png?raw=true" width="48%"/><br/>
 
 **The left is Output without cc_loss, the right is the Output with cc_loss.** <br/>
 **The regular texture is also generated better when combining the content image and style image.**<br/>

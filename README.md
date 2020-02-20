@@ -38,15 +38,19 @@ This command has same function about the last command, but it will use the long-
 <p>
 <img src="https://github.com/ty625911724/texture_generation_master/blob/master/images/brick.jpg?raw=true" width="48%" title="style image"/>
 <img src="https://github.com/ty625911724/texture_generation_master/blob/master/images/noisy.jpg?raw=true" width="48%"/>
-&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp style image 
-&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Input <br/>
+The left is style image,the right is content Input.<br/>
 <img src="https://github.com/ty625911724/texture_generation_master/blob/master/images/results_style.png?raw=true" width="48%"/>
 <img src="https://github.com/ty625911724/texture_generation_master/blob/master/images/results_cc.png?raw=true" width="48%"/>
-                  Output without cc_loss                                             Output with cc_loss: <br/>
-</p>
-Without the cc_loss, the generated texture is mixed and disorderly.
-With the help of the long-range loss, the rendering of regular textures is better.
-
-It has the same effect when combine the content image and style image.
+The left is Output without cc_loss, the right is the Output with cc_loss: <br/>
+Without the cc_loss, the generated texture is mixed and disorderly.<br/>
+With the help of the long-range loss, the rendering of regular textures is better.<br/>
+<p>
+<img src="https://github.com/ty625911724/texture_generation_master/blob/master/images/brick2.jpg?raw=true" width="48%" title="style image"/>
+<img src="https://github.com/ty625911724/texture_generation_master/blob/master/images/content.jpg?raw=true" width="48%"/>
+The left is style image,the right is content Input.<br/>
+<img src="https://github.com/ty625911724/texture_generation_master/blob/master/images/results_style_car.png?raw=true" width="48%"/>
+<img src="https://github.com/ty625911724/texture_generation_master/blob/master/images/results_cc_car.png?raw=true" width="48%"/>
+The left is Output without cc_loss, the right is the Output with cc_loss: <br/>
+It has the same effect when combine the content image and style image.<br/>
 
 You could change the hyperparameters to get better peformance.
